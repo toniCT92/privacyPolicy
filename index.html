@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy - Dice Rolling Pro</title>
   <style>
     body {
@@ -10,36 +10,57 @@
       background-color: #ffffff;
       color: #2d2d2d;
       padding: 2rem;
-      line-height: 1.7;
       max-width: 800px;
       margin: auto;
-    }
-
-    h1, h2 {
-      color: #0077cc;
+      line-height: 1.7;
     }
 
     h1 {
       font-size: 2.2rem;
-      margin-bottom: 1rem;
+      color: #0077cc;
+      margin-bottom: 1.5rem;
     }
 
-    h2 {
-      font-size: 1.5rem;
-      margin-top: 2rem;
+    .accordion {
+      border-top: 1px solid #ddd;
     }
 
-    ul {
+    .accordion-item {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .accordion-title {
+      font-size: 1.3rem;
+      cursor: pointer;
+      padding: 1rem 0;
+      color: #0077cc;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    .accordion-title:hover {
+      color: #005fa3;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 0.5rem 0 1rem 0;
+    }
+
+    .accordion-content ul {
+      margin-top: 0.5rem;
       padding-left: 1.5rem;
-      margin-top: 0.5em;
     }
 
-    li {
-      margin-bottom: 0.5em;
+    .accordion-content p {
+      margin-top: 1rem;
     }
 
-    p {
-      margin-top: 1em;
+    .highlight {
+      background-color: #f3f9ff;
+      padding: 1rem;
+      border-left: 4px solid #0077cc;
+      margin-top: 1rem;
     }
 
     a {
@@ -57,84 +78,103 @@
       height: 1px;
       background-color: #ddd;
     }
-
-    .section {
-      margin-bottom: 2.5rem;
-    }
-
-    .highlight {
-      background-color: #f3f9ff;
-      padding: 1rem;
-      border-left: 4px solid #0077cc;
-    }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-
   <p>This Privacy Policy explains how <strong>TonySoft7567</strong> ("we", "us", or "our") handles your data in the <strong>Dice Rolling Pro</strong> app. By using our app, you agree to this policy.</p>
 
-  <div class="section">
-    <h2>What Data We Collect</h2>
-    <p>When using the app, we may collect:</p>
-    <ul>
-      <li>Your device's IP address</li>
-      <li>Pages viewed, session times, and interaction data</li>
-      <li>Operating system and app version used</li>
-      <li>Advertising ID (AAID/IDFA) for ad personalization and delivery</li>
-    </ul>
-    <p>Some features may require login (like unlocking premium features). In such cases, we may collect your email address securely.</p>
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-title">What Data We Collect</div>
+      <div class="accordion-content">
+        <p>When using the app, we may collect:</p>
+        <ul>
+          <li>Your device's IP address</li>
+          <li>Pages viewed, session times, and interaction data</li>
+          <li>Operating system and app version used</li>
+          <li>Advertising ID (AAID/IDFA) for ad personalization and delivery</li>
+        </ul>
+        <p>Some features may require login (like unlocking premium features). In such cases, we may collect your email address securely.</p>
+        <div class="highlight">
+          <strong>Consent Management:</strong> To comply with GDPR, we use Google’s User Messaging Platform (UMP) to ask for your consent when the app starts. If you decline, we show only non-personalized ads.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Third-Party Services</div>
+      <div class="accordion-content">
+        <p>We rely on trusted services to improve the app:</p>
+        <ul>
+          <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
+          <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
+          <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Opt-Out Options</div>
+      <div class="accordion-content">
+        <p>You can disable personalized data collection by:</p>
+        <ul>
+          <li>Uninstalling the app</li>
+          <li>Visiting <a href="https://adssettings.google.com" target="_blank">https://adssettings.google.com</a> to manage ad preferences</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Children’s Privacy</div>
+      <div class="accordion-content">
+        <p>The app is safe for all ages (rated 3+). For users under 13, we only serve non-personalized ads and collect no personal identifiers. We follow Google Play’s Families policy to ensure compliance.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Data Retention</div>
+      <div class="accordion-content">
+        <p>We retain minimal data to keep the app functioning smoothly. You may request deletion of your data by contacting us.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Security Measures</div>
+      <div class="accordion-content">
+        <p>We use industry-standard security methods to protect your data, including encryption and secure storage.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Changes to This Policy</div>
+      <div class="accordion-content">
+        <p>This policy may be updated. We'll notify you of major changes within the app or through updates. Please review this page regularly.</p>
+        <p><strong>Last Updated:</strong> July 24, 2025</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <div class="accordion-title">Contact Us</div>
+      <div class="accordion-content">
+        <p>Have questions? Reach out at: <a href="mailto:tonitechs885@gmail.com">tonitechs885@gmail.com</a></p>
+      </div>
+    </div>
   </div>
 
-  <div class="section highlight">
-    <p><strong>Consent Management:</strong> To comply with GDPR, we use Google’s User Messaging Platform (UMP) to ask for your consent when the app starts. If you decline, we show only non-personalized ads.</p>
-  </div>
+  <script>
+    const titles = document.querySelectorAll(".accordion-title");
+    const contents = document.querySelectorAll(".accordion-content");
 
-  <div class="section">
-    <h2>Third-Party Services</h2>
-    <p>We rely on trusted services to improve the app:</p>
-    <ul>
-      <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
-      <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li>
-      <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase</a></li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Opt-Out Options</h2>
-    <p>You can disable personalized data collection by:</p>
-    <ul>
-      <li>Uninstalling the app</li>
-      <li>Visiting <a href="https://adssettings.google.com" target="_blank">https://adssettings.google.com</a> to manage ad preferences</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Children’s Privacy</h2>
-    <p>The app is safe for all ages (rated 3+). For users under 13, we only serve non-personalized ads and collect no personal identifiers. We follow Google Play’s Families policy to ensure compliance.</p>
-  </div>
-
-  <div class="section">
-    <h2>Data Retention</h2>
-    <p>We retain minimal data to keep the app functioning smoothly. You may request deletion of your data by contacting us.</p>
-  </div>
-
-  <div class="section">
-    <h2>Security Measures</h2>
-    <p>We use industry-standard security methods to protect your data, including encryption and secure storage.</p>
-  </div>
-
-  <div class="section">
-    <h2>Changes to This Policy</h2>
-    <p>This policy may be updated. We'll notify you of major changes within the app or through updates. Please review this page regularly.</p>
-    <p><strong>Last Updated:</strong> July 24, 2025</p>
-  </div>
-
-  <hr>
-
-  <div class="section">
-    <h2>Contact Us</h2>
-    <p>Have questions? Reach out at: <a href="mailto:tonitechs885@gmail.com">tonitechs885@gmail.com</a></p>
-  </div>
+    titles.forEach((title, index) => {
+      title.addEventListener("click", () => {
+        contents.forEach((content, contentIndex) => {
+          content.style.display = index === contentIndex
+            ? content.style.display === "block" ? "none" : "block"
+            : "none";
+        });
+      });
+    });
+  </script>
 </body>
 </html>
